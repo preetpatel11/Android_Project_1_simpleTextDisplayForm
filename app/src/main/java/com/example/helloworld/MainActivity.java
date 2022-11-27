@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         EditText editLName = findViewById(R.id.editLName);
         EditText editEmail = findViewById(R.id.editEmail);
 
-        txtFName.setText(editFName.getText().toString());
-        txtLName.setText(editLName.getText().toString());
-        txtEmail.setText(editEmail.getText().toString());
+        txtFName.setText("First Name: "+editFName.getText().toString());
+        txtLName.setText("Last Name: "+editLName.getText().toString());
+        txtEmail.setText("Email: "+editEmail.getText().toString());
     }
 }
